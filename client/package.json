@@ -1,0 +1,26 @@
+{
+  "name": "web_dev_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel *.html ",
+    "build": "parcel build *.html",
+    "deploy":"surge dist mywebsite.jmc.surge.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmc171144/webdev.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmc171144/webdev/issues"
+  },
+  "homepage": "https://github.com/jmc171144/webdev#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "parcel-bundler": "^1.12.4"
+  }
+}
