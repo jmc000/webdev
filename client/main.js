@@ -1,26 +1,11 @@
+import './main.css'
 
-const axios = require("axios");
+import { faArchway, faAd, faBrain } from '@fortawesome/free-solid-svg-icons'
 
-axios({
-    "method":"GET",
-    "url":"https://montanaflynn-fifa-world-cup.p.rapidapi.com/teams",
-    "headers":{
-    "content-type":"application/octet-stream",
-    "x-rapidapi-host":"montanaflynn-fifa-world-cup.p.rapidapi.com",
-    "x-rapidapi-key":"9071535a0cmshc30efcc2c941dc0p1c36cdjsn50cff866695a",
-    "accepts":"json"
-    }
-    })
-    .then((response)=>{
-      teams= response.data
-      html=''
-      for (team of teams){
-          html+= team.id+' '+team.title+'</br>'
-      }
-      document.querySelector('#football').innerHTML =html;
-    })
-    .then(re=>{
-    })
-    .catch((error)=>{
-      console.log(error)
-    })
+// Utiliser uniquement les icônes archway, ad et brain
+library.add(faArchway, faAd, faBrain)
+
+// Remplacer toutes les balises <i class="fa..."> par un <svg> et utiliser un MutationObserver pour
+// continuer à le faire quand le DOM change.
+dom.watch()
+

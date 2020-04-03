@@ -1,7 +1,19 @@
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
 .main {
 	flex-direction: column;
 	display: flex;
 }
+
+
+h1 { color: #111; font-family: 'Helvetica Neue', sans-serif; font-size: 50px; font-weight: bold; letter-spacing: -1px; line-height: 1; text-align: center; }
+
+
+h2 { color: #111; font-family: 'Open Sans', sans-serif; font-size: 30px; font-weight: 300; line-height: 32px; margin: 0 0 20px; text-align: center; }
+
+
+p { color: #685206; font-family: 'Helvetica Neue', sans-serif; font-size: 14px; line-height: 24px; margin: 0 0 24px; text-align: justify; text-justify: inter-word; }
 
 .tab_ul {
     list-style: none;
@@ -19,6 +31,7 @@
     border-radius: 50px;
     margin-right: 2em;
     background-color: rgba(0,0,255,0.1);
+    border: none;
 }
 .tab_references {
 
@@ -61,5 +74,18 @@
 	margin-right: 7em;
 	width: 210px;
 	margin-top: 0px;
+}
+
+.footerStyle{
+    margin-top: 10em;
+    margin-bottom: 0em;  
+    position: static;
+    height: min-content;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(241,225,194,0.5);
+    color: #685206;
+    text-align: center;
 }
 

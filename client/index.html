@@ -5,12 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Projet ESILV PI²</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-	  <link rel="stylesheet" href="main.css"></script>
 </head>
 
-<body>
-	<header>
+<body class="font-sans p-0 m-0">
+	<header class="m-0 p-1 sticky top-0 shadow bg-white">
 	    <nav>
 		    <ul class="tab_ul">
 		    	<a href="index.html"><li class="tab_li"><button class="tab_button"> Homepage</button></li></a>
@@ -23,7 +21,7 @@
 		    </ul>
 		</nav>
 		<div class="banner"><br>
-			<h1 style="text-align: center;">Presentation of our PI² project !</h1>
+			<h1 class="text-center">Presentation of our PI² project</h1>
         </div>
     </header>
 
@@ -31,14 +29,15 @@
     	<br><br>
 		<section class="block_section">
 			<article class="block_text">
-				<h1> Context</h1>
-				<p>As part of our Master 1 in Financial Engineering, we had to carry out an innovative project in teams of 4 students. The different projects were proposed by companies or professors, all falling under the theme of financial engineering, but all being different from each other.
+				<h2> Context</h2>
+				<p>As part of our Master 1 in FinTech Engineering, we had to carry out an innovative project in teams of 4 students. The different projects were proposed by companies or professors, all falling under the theme of financial engineering, but all being different from each other.
 				The topics were chosen in October and the final reports will be done in April 2020.</p>
-				<br><h1>Our subject</h1>
+				<br><h2>Our subject</h2>
 				<p>
-					Our team was particularly attracted by the blockchain technology, we chose to take the topic entitled "Creating and deploying a decentralized application (Dapp) on the blcockhain Ethereum".
+					Our team was particularly attracted by the blockchain technology, we chose to take the topic entitled "Creating and deploying a decentralized application (Dapp) on the blockckhain Ethereum".
 					<br><br>
-					The idea is to update the <a href="http://www.milliondollarhomepage.com/" title="Have a look !" target="_blank">MillionDollarHomePage</a> website that was launched at the beginning of the internet by adding the innovations brought by the ethereum blockchain technology.<br><br>
+                    The idea is to update the <a href="http://www.milliondollarhomepage.com/" title="Have a look !" target="_blank">MillionDollarHomePage</a> website that was launched at the beginning of the internet by adding the innovations brought by the ethereum blockchain technology.
+                    <br><br>
 					This website put on sale 1 million pixels at 1$ per unit, and once purchased the user could put the image he wanted to advertise his website.
 					The problem is that it was not possible to resell the pixel. That's why we wanted to recreate this site with a secondary market system. Indeed the exchanges would be facilitated thanks to a tokenization of the pixels (multi-fungible tokens - ERC721x - you can read the documentation <a href="https://github.com/loomnetwork/erc721x" title="github repository" target="_blank">here</a>).
 				</p>
@@ -46,25 +45,18 @@
 			<aside class="block_image">
 				<div>
 					<a href="http://www.milliondollarhomepage.com/" title="MillionDollarHomePage website" target="_blank">
-					<img class="fit-picture" src="milliondollar.jpg" alt="The 1 million pixels of the MillionDollarHomePage website" style="width:400px;height:500px;">
+					<img class="fit-picture" src="./images/milliondollar.jpg" alt="The 1 million pixels of the MillionDollarHomePage website" style="width:400px;height:500px;">
 				 	</a>
 				 	<br><br><br><br><br>
 				</div>
 		</aside></section>
     </main>
-		
-
-
-
-
-    <footer class="footer">
-    	<address title="contact">
-			<a>You contact contact us by</a> <a href="mailto:qq1@qqpart.com"> mail</a>
-			<br>
-			<a>You can have a look to our </a> <a href="https://github.com/GROOOOAAAARK/OneMillionDollarProject">github repesitory</a>
-		</address>
+    <footer class="footerStyle">
+            <br>
+			&copy; Jérémy Martin-Cocher&nbsp;&nbsp;|&nbsp;&nbsp;You contact contact us by <a href="mailto:qq1@qqpart.com"> mail</a>
+            &nbsp;&nbsp;|&nbsp;&nbsp;Have a look to our </a> 
+            <a href="https://github.com/GROOOOAAAARK/OneMillionDollarProject">github repository</a>
     </footer>
-    <script src="/main.js"></script>
-
+    <script src="./main.js"></script>
     </body>
 </html>
